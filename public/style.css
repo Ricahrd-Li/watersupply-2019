@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body{
+    background:url(/USTC.jpg) no-repeat center center fixed;
+    background-size: cover
+}
+
+h1{
+    font-size: 32px; 
+    /* text-transform: uppercase;  */
+    letter-spacing: 2px; 
+    text-align:center
+}
