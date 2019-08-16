@@ -1,13 +1,53 @@
 @charset "UTF-8";
 
 body{
-    background:url(/USTC.jpg) no-repeat center center fixed;
-    background-size: cover
+    background:url(USTC.png) no-repeat center center fixed;
+    background-size: cover;
 }
 
 h1{
-    font-size: 32px; 
+    font-size: 40px;
+    font-family: Georgia, "Times New Roman", "Microsoft YaHei";
     /* text-transform: uppercase;  */
-    letter-spacing: 2px; 
-    text-align:center
+    letter-spacing: 4px; 
+    text-align:center;
 }
+
+h2{
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", "Microsoft YaHei";
+    /* text-transform: uppercase;  */
+    letter-spacing: 3px; 
+    text-align:center;
+}
+
+h3{
+    font-size: 25px;
+    font-family: Georgia, "Times New Roman", "Microsoft YaHei";
+    /* text-transform: uppercase;  */
+    letter-spacing: 3px; 
+    text-align:center;
+}
+
+input{
+    font-family: Georgia, "Times New Roman", "Microsoft YaHei";
+    /* text-transform: uppercase;  */
+    position: relative;
+    left: 550px;
+}
+
+button{
+    font-family: Georgia, "Times New Roman", "Microsoft YaHei";
+    /* text-transform: uppercase;  */
+    position: relative;
+    left: 550px;
+}
+
+p{
+    font-size: 15px;
+    font-family: Georgia, "Times New Roman", "Microsoft YaHei";
+    /* text-transform: uppercase;  */
+    letter-spacing: 3px; 
+    text-align:center;
+}
+
