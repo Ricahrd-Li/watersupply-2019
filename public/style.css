@@ -1,9 +1,12 @@
 @charset "UTF-8";
+/* .Main {display:flex;}
+.Identity{display:flex;} */
 
 body{
     background:url(USTC.png) no-repeat center center fixed;
     background-size: cover;
 }
+
 
 h1{
     font-size: 40px;
@@ -34,6 +37,11 @@ input{
     /* text-transform: uppercase;  */
     position: relative;
     left: 550px;
+}
+input.Identity{   
+    font-family: Georgia, "Times New Roman", "Microsoft YaHei";
+    position:relative;
+    left: 3px;
 }
 
 button{

@@ -4,28 +4,40 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="style.css" /> 
         <title>2019 军训送水</title>
+        <!-- Note: javascript should be put in <head> -->
+        <script type="application/javascript" src = "main.js"></script> 
     </head>
 
     <body>
         <h1>欢迎你，志愿者！</h1>
         <h2>军训送水动态调度</h2>
-        <div>
-            <h3 style="color: red">东区</h3>
-            <p id="numEast">现有水桶数 </p>
-            <input> 
-            <button>需要送水</button>
+       
+        <!-- identity -->
+        <div class="Identity" >
+            <h2  style="color: brown; text-align:left;">你的身份是</h2>
+            <input class="Identity" type="radio" name="identity" value="admin">管理员<br>
+            <input class="Identity" type="radio" name="volunteer" value="volunteer">志愿者<br>
+            <input class="Identity" type="radio" name="others" value="others">吃瓜群众<br>
         </div>
-        <div>
+
+        <!-- main elements -->
+        <div> 
+            <h3 style="color: red;">东区</h3>
+            <p>现有水桶数：</p>
+            <input type="text" id="numEast" value="缺水数">
+            <button onclick="summitNumEast()">提交</button>
+
             <h3 style="color:blue">西区</h3>
-            <p id="numWest">现有水桶数 </p>
-            <input> 
-            <button>需要送水</button>
-        </div>
-        <div>
+            <p>现有水桶数：</p>
+            <input type="text" id="numWest" value="缺水数"> 
+            <button onclick="summitNumWest()">提交</button>
+
             <h3 style="color:green">中区</h3>
-            <p id="numMiddle">现有水桶数 </p>
-            <input> 
-            <button>需要送水</button>
+            <p>现有水桶数：</p>
+            <input  type="text" id="numMiddle" value="缺水数"> 
+            <button onclick="summitNumMiddle()">提交</button>
         </div>
+        <!--  -->
+        <!-- <script type="application/javascript" src = "main.js"></script> -->
     </body>
 </html>
