@@ -1,59 +1,82 @@
 @charset "UTF-8";
-/* .Main {display:flex;}
-.Identity{display:flex;} */
+.Main {
+    /* float: none; */
+    /* display:block; */
+}
+.Identity{ 
+    float: left;
+    clear:none
+}
 
+/* Back ground */
 body{
     background:url(USTC.png) no-repeat center center fixed;
     background-size: cover;
 }
 
-
+/* 欢迎你，志愿者 */
 h1{
     font-size: 40px;
     font-family: Georgia, "Times New Roman", "Microsoft YaHei";
-    /* text-transform: uppercase;  */
     letter-spacing: 4px; 
     text-align:center;
 }
 
+/* 军训送水动态调度 */
 h2{
     font-size: 20px;
     font-family: Georgia, "Times New Roman", "Microsoft YaHei";
-    /* text-transform: uppercase;  */
     letter-spacing: 3px; 
     text-align:center;
 }
 
+/* 东区西区中区 */
 h3{
     font-size: 25px;
     font-family: Georgia, "Times New Roman", "Microsoft YaHei";
-    /* text-transform: uppercase;  */
+    /* position: absolute; */
     letter-spacing: 3px; 
     text-align:center;
 }
 
+.east{
+    position: relative;
+}
+h3.east{
+    left: -60px;
+}
+p.east{
+    left:-60px;
+}
+input.east{
+    left: 430px;
+}
+
+button.east{
+    left: 430px;
+}
+
 input{
-    font-family: Georgia, "Times New Roman", "Microsoft YaHei";
-    /* text-transform: uppercase;  */
+    font-family: "Microsoft YaHei";
     position: relative;
     left: 550px;
 }
 input.Identity{   
-    font-family: Georgia, "Times New Roman", "Microsoft YaHei";
-    position:relative;
+    font-family: "Microsoft YaHei";
+    position: relative;
     left: 3px;
 }
 
 button{
     font-family: Georgia, "Times New Roman", "Microsoft YaHei";
     /* text-transform: uppercase;  */
-    position: relative;
+    position:relative;
     left: 550px;
 }
 
 p{
     font-size: 15px;
-    font-family: Georgia, "Times New Roman", "Microsoft YaHei";
+    font-family:  "Microsoft YaHei";
     /* text-transform: uppercase;  */
     letter-spacing: 3px; 
     text-align:center;

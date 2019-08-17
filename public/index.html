@@ -16,25 +16,33 @@
         <div class="Identity" >
             <h2  style="color: brown; text-align:left;">你的身份是</h2>
             <input class="Identity" type="radio" name="identity" value="admin">管理员<br>
-            <input class="Identity" type="radio" name="volunteer" value="volunteer">志愿者<br>
-            <input class="Identity" type="radio" name="others" value="others">吃瓜群众<br>
+            <input class="Identity" type="radio" name="identity" value="volunteer">志愿者<br>
+            <input class="Identity" type="radio" name="identity" value="others">吃瓜群众<br>
         </div>
 
         <!-- main elements -->
-        <div> 
-            <h3 style="color: red;">东区</h3>
-            <p>现有水桶数：</p>
-            <input type="text" id="numEast" value="缺水数">
-            <button onclick="summitNumEast()">提交</button>
-
+        <div class="Main">  
+            <h3 style="color: red;" class="east">东区</h3>
+            <p class="east">现有水桶数: 
+                <script class="east", style="font-family: Arial, Helvetica, sans-serif">document.write(currentNumEast)</script>
+            </p>
+            <input type="text" id="numEast" value="缺水数" class="east">
+            <button class="east" onclick="summitNumEast()">提交</button>
+        </div>
+        <div class="Main">  
             <h3 style="color:blue">西区</h3>
-            <p>现有水桶数：</p>
+            <p>现有水桶数：
+                <script class="east">document.write(currentNumWest)</script>
+            </p>
             <input type="text" id="numWest" value="缺水数"> 
             <button onclick="summitNumWest()">提交</button>
-
+        </div>
+        <div class="Main">  
             <h3 style="color:green">中区</h3>
-            <p>现有水桶数：</p>
-            <input  type="text" id="numMiddle" value="缺水数"> 
+            <p>现有水桶数：
+                <script class="east">document.write(currentNumMid)</script>
+            </p>
+            <input  type="text" id="numMid" value="缺水数"> 
             <button onclick="summitNumMiddle()">提交</button>
         </div>
         <!--  -->
